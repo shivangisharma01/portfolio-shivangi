@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
  :root { --primary-color:#e4385a;
 --light-pink: #fca5a5;
 --medium-gray:  #e5e7eb;}
@@ -64,7 +64,7 @@ color: aliceblue;
 .navigation {
     background-color: var(--primary-color);
     color: aliceblue;
-    padding: 1rem 0.5rem;
+    padding: 2.5rem 0.5rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
 
@@ -97,13 +97,14 @@ color: aliceblue;
     max-width: 350px;
     display: block;
     margin: auto;
-    padding: 1rem;
+    padding: 4rem;
 }
 .hero .hero-heading {
     padding: 2rem;
     text-align: center;
     color: var(--light-pink);
     font-size:x-large;
+    
 }
 
  .hero .hero-heading .hero-inverted {
@@ -112,7 +113,7 @@ color: aliceblue;
 
  /* section */
  .section {
-     padding: 1rem ;
+     padding: 1.5rem ;
     
  }
 
@@ -122,6 +123,7 @@ color: aliceblue;
 
  .ow {
      background-color:var(--medium-gray); ;
+    
  }
 
  
@@ -129,11 +131,12 @@ color: aliceblue;
 
  .footer {
      background-color:  var(--primary-color);
-     padding: 2rem;
+     padding: 2.5rem;
      text-align: center;
      border-top-right-radius: 1rem;
      border-bottom-left-radius:1rem ;
      color: aliceblue;
+     margin-top: 0.5rem;
 
  }
 
@@ -170,4 +173,7 @@ padding-inline-start: 0px;
    
 }
 
-
+.ordered-list .spacing {
+    margin-top: 2rem;
+    margin-bottom:4rem;
+}
