@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+ :root { --primary-color:#e4385a;
+--light-pink: #fca5a5;
+--medium-gray:  #e5e7eb;}
+ hr {
+     margin: 2rem 0rem;
+ }
+
+body {font-family: 'Montserrat', sans-serif; 
+ margin: 0px;   
+ }
+ 
+ 
+
+/* container */
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+
+border-radius: 0.5rem;
+color: aliceblue;
+}
+
+.link-secondary {
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+ /* list */
+
+.list-non-bullet {
+
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+}
+ /* nav */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: aliceblue;
+    padding: 1rem 0.5rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+
+
+}
+
+.navigation .link {
+    color: aliceblue;
+}
+
+ .navigation .nav-pills {
+    text-align:right;
+}
+
+
+.navigation .link-active {
+    font-weight: bold;
+
+}
+
+/* header */
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+}
+.hero .hero-heading {
+    padding: 2rem;
+    text-align: center;
+    color: var(--light-pink);
+    font-size:x-large;
+}
+
+ .hero .hero-heading .hero-inverted {
+     color: var(--primary-color) ;
+ }
+
+ /* section */
+ .section {
+     padding: 1rem ;
+    
+ }
+
+ .section .h1 {
+     text-align: center;
+ }
+
+ .ow {
+     background-color:var(--medium-gray); ;
+ }
+
+ 
+ /* footer */
+
+ .footer {
+     background-color:  var(--primary-color);
+     padding: 2rem;
+     text-align: center;
+     border-top-right-radius: 1rem;
+     border-bottom-left-radius:1rem ;
+     color: aliceblue;
+
+ }
+
+ .footer .link {
+     color: aliceblue;
+     text-align: center;
+     margin: auto;
+     
+ }
+
+ .footer .text-align {
+     text-align: center;
+     margin: 0px;
+ }
+
+
+.footer .list-non-bullet {
+    
+    list-style: none;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.footer .footer-header {
+    font-size: large;
+    font-weight: bold;
+}
+.footer ul {
+padding-inline-start: 0px;
+}
+
+.ordered-list .point-space {
+    padding: 1.5rem 1rem;
+   
+}
+
+
