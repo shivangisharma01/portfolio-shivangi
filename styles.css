@@ -177,3 +177,8 @@ padding-inline-start: 0px;
     margin-top: 2rem;
     margin-bottom:4rem;
 }
+
+.ordered-list {
+    text-align: center;
+    list-style: none;
+}
