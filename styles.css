@@ -76,10 +76,11 @@ color: aliceblue;
     font-weight: bold;
     font-size: 1.1rem;
     
-
-
 }
 
+.navigation .link-active {
+    font-weight: bold;
+}
 .navigation .link {
     color: aliceblue;
 }
@@ -89,10 +90,6 @@ color: aliceblue;
 }
 
 
-.navigation .link-active {
-    font-weight: bold;
-
-}
 
 /* header */
 
