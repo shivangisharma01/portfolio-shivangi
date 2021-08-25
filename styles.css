@@ -9,6 +9,7 @@
 
 body {font-family: 'Montserrat', sans-serif; 
  margin: 0px;   
+
  }
  
  
@@ -24,6 +25,7 @@ body {font-family: 'Montserrat', sans-serif;
 .container-center {
     max-width: 600px;
     margin: auto;
+   
 }
 
 /* links */
@@ -58,6 +60,7 @@ color: aliceblue;
 
 .list-item-inline {
     display: inline;
+    text-align: center;
 }
  /* nav */
 
@@ -94,7 +97,7 @@ color: aliceblue;
 /* header */
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 262px;
     display: block;
     margin: auto;
     padding: 4rem;
@@ -114,6 +117,11 @@ color: aliceblue;
  /* section */
  .section {
      padding: 1.5rem ;
+     margin: auto;
+     max-width: 70%;
+     text-align: center;
+     border-radius:1.6rem;
+
     
  }
 
@@ -126,6 +134,8 @@ color: aliceblue;
     
  }
 
+
+
  
  /* footer */
 
@@ -137,7 +147,6 @@ color: aliceblue;
      border-bottom-left-radius:1rem ;
      color: aliceblue;
      margin-top: 0.5rem;
-
  }
 
  .footer .link {
@@ -182,3 +191,14 @@ padding-inline-start: 0px;
     text-align: center;
     list-style: none;
 }
+
+p {
+    text-align: center;
+  
+}
+
+.socialIcon {
+    display: inline-block;
+    block-size: 2.1rem;
+    margin-top: 1rem;
+padding: 0rem 0.6rem;}
