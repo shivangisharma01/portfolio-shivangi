@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
- :root { --primary-color:#e4385a;
---light-pink: #fca5a5;
+ :root { --primary-color: #fd2667;
+--light-pink: #ff7e94;
 --medium-gray:  #e5e7eb;}
  hr {
      margin: 2rem 0rem;
@@ -11,9 +11,9 @@ body {font-family: 'Montserrat', sans-serif;
  margin: 0px;   
 
  }
+ /* --primary-color:#f83c61; */
+ /* --light-pink: #fca5a5; */
  
- 
-
 /* container */
 
 .container {
@@ -48,6 +48,9 @@ color: aliceblue;
     border-radius: 0.5rem;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+}
+.link-secondary:hover {
+    background-color:#ffd2d2;
 }
  /* list */
 
@@ -138,11 +141,12 @@ color: aliceblue;
 
  .footer {
      background-color:  var(--primary-color);
-     padding: 2.5rem;
+     padding-top: 2.5rem;
+     padding-bottom: 2.2rem;
      text-align: center;
      border-top-right-radius: 1rem;
      border-bottom-left-radius:1rem ;
-     color: aliceblue;
+     color: #301721;
      margin-top: 0.5rem;
  }
 
@@ -174,6 +178,15 @@ color: aliceblue;
 padding-inline-start: 0px;
 }
 
+.socialIcon {
+    display: inline-block;
+    block-size: 2.1rem;
+    margin-top: 1rem;
+padding: 0rem 0.6rem;}
+
+
+/* ol list */
+
 .ordered-list .point-space {
     padding: 1.5rem 1rem;
    
@@ -189,13 +202,8 @@ padding-inline-start: 0px;
     list-style: none;
 }
 
+
 p {
     text-align: center;
   
 }
-
-.socialIcon {
-    display: inline-block;
-    block-size: 2.1rem;
-    margin-top: 1rem;
-padding: 0rem 0.6rem;}
