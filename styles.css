@@ -65,6 +65,13 @@ color: aliceblue;
     display: inline;
     text-align: center;
 }
+
+.ordered-list{
+    padding: 0.2rem;
+    border-radius: 0.6rem;
+    max-width: 95%;
+}
+
  /* nav */
 
 .navigation {
@@ -130,7 +137,7 @@ color: aliceblue;
  }
 
  .ow {
-     background-color:var(--medium-gray); ;
+     background-color: #fcc9d2; 
     
  }
 
@@ -188,7 +195,7 @@ padding: 0rem 0.8rem;}
 /* ol list */
 
 .ordered-list .point-space {
-    padding: 1.5rem 1rem;
+    padding: 0.6rem 1rem;
    
 }
 
@@ -205,5 +212,18 @@ padding: 0rem 0.8rem;}
 
 p {
     text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
   
+}
+
+.mark {
+    text-decoration: none;
+    padding: 0.15rem 1rem;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border: none;
+    font-weight: bold;
+    background-color:#ffdbdb ;
 }
