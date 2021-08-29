@@ -68,8 +68,11 @@ color: aliceblue;
 
 .ordered-list{
     padding: 0.2rem;
-    border-radius: 0.6rem;
-    max-width: 95%;
+    border-radius: 1rem;
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+    list-style: none;
 }
 
  /* nav */
@@ -139,6 +142,7 @@ color: aliceblue;
  .ow {
      background-color: #ffb0c4; 
     
+    
  }
 
 
@@ -202,11 +206,6 @@ padding: 0rem 0.8rem;}
 .ordered-list .spacing {
     margin-top: 2rem;
     margin-bottom:4rem;
-}
-
-.ordered-list {
-    text-align: center;
-    list-style: none;
 }
 
 
