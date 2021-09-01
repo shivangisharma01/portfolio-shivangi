@@ -124,6 +124,13 @@ color: aliceblue;
      color: var(--primary-color) ;
  }
 
+ .hero-img-blog {
+     width: 70%;
+display: block;
+margin: 2rem auto;
+height: 20rem;
+ }
+
  /* section */
  .section {
      padding: 1.5rem ;
@@ -215,7 +222,14 @@ p {
     margin-right: 3rem;
   
 }
+h1 {
+    text-align: center;
 
+}
+
+h2{
+    text-align: center;
+}
 .mark {
     text-decoration: none;
     padding: 0.15rem 1rem;
@@ -226,4 +240,10 @@ p {
     font-weight: bold;
     background-color:#ffdbdb ;
     margin-bottom: 0.2rem;
+}
+
+@media screen and (min-width: 40.5rem) {
+    .navigation .nav-brand {
+        font-weight: bold;
+    }
 }
