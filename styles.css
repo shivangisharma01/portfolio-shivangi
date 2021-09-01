@@ -247,3 +247,7 @@ h2{
         font-weight: bold;
     }
 }
+
+ol {
+    padding-inline-start: 0rem;
+}
