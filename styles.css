@@ -34,7 +34,7 @@ body {font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     padding: 0.5rem 1rem;
     text-align: center;
-    
+    display: inline-block;
 }
 
 .link-primary {
@@ -252,3 +252,6 @@ ol {
     padding-inline-start: 0rem;
 }
 
+#plag-btn {
+    margin-top: 0.34rem;
+}
